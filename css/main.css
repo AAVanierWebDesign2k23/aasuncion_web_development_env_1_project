@@ -78,7 +78,7 @@ p{
 .home-page{
     max-width: 250vh;
     height: 700px;
-    background-image: url('../images/background.png');
+    background-image: url('../assets/images/background.png');
     background-size: cover;
     background-position: center;
 }
