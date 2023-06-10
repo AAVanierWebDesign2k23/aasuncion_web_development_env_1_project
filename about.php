@@ -8,23 +8,30 @@
 	<link rel="stylesheet" type="text/css" href="css/about.css">
 
 </head>
+
 <body>
 
-    <header class="header">         <!--HEADER-->
+    <header class="header">             <!--HEADER-->
         <div class="container">
             <div class="header-flex">
                 <a href="index.php" class="button1" target="blank">Aaron Asuncion</a>
-            </div>
+                <a href="about.php" class="button2" target="blank">About Me</a>
+            </div>    
         </div>
-
-        <a href="about.php" class="button2" target="blank">About Me</a>
     </header>
 	
     <main>
         <section class="front-page">       <!--FRONT-PAGE-->
 		    <div class="textbox">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repellendus ad aperiam. Natus aperiam quia officiis a ut culpa ex fugiat ea voluptas dignissimos provident non impedit, doloremque eaque porro?<br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis itaque officia quos enim quaerat quae quas dicta praesentium sapiente, ex earum. Quos magni ullam quasi inventore sapiente! Dolores, accusantium repellat?</p>
+                <div class="page-flex">
+                    <div class="left"></div>
+                    <div class="right">
+                    <h1>About Me</h1>
+                <p>I love making images. Whether its drawing or I take a picture, I always want to create something. Now that I'm learning the web developer lifestyle, its a big advantage for me.<br><br> Enrolling at the AEC Web Designer Program at Vanier College was a huge step for me. Studying different types of web programming languages, coding them, manipulating them, and...also adjusting pictures and words. <br><br> I look forward to this adventure.<br><br></p>
+                <h2>Contact Info:<br><br></h2>
+                <h3>email: <a href="mailto: asuncioa@eduvaniercollegeqc.onmicrosoft.com" class="">asuncioa@eduvaniercollegeqc.onmicrosoft.com</a></h3>
+                    </div>
+                </div>
             </div>
 	    </section>
     </main>
